@@ -1,0 +1,14 @@
+COMP 3050 Computer Architecture
+Homework #2 Fall, 2022
+Merhawi Haile
+Merhawi_Haile@student.uml.edu
+
+    • My approach:
++ Use a union object to read float data and convert to int/bit array at the same time
++ Put two mantissas into two unsigned integers, the same for the two exponents.’
++ Adjust the two mantissas so that the two exponents become equal
++ Add two mantissas into an unsigned number. If the exponent is all 1’s, the mantissa become zero (Infinity)
++ Assign all bits of the new mantissa and the new exponent into a float_32 union result variable
++ Print the calculated result and the result from adding two original numbers directly.
+    • Degree of success: Passed all the sample testcases.
+
